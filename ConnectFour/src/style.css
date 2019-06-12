@@ -1,0 +1,34 @@
+.button{
+    -fx-background-color: 
+        linear-gradient(#624291, #624291),
+        linear-gradient(#624291, #624291),
+        linear-gradient(#624291, #624291),
+        linear-gradient(#624291 0%, #624291 50%, #624291 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-border-radius: 30;
+    -fx-border-color: black;
+    -fx-border-width: 0px;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+.button: Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , -1 );
+}
+.button:pressed{
+    -fx-background-color: linear-gradient(#4c366d, #4c366d),
+        linear-gradient(#4c366d, #4c366d),
+        linear-gradient(#4c366d, #4c366d),
+        linear-gradient(#4c366d 0%, #4c366d 50%, #4c366d 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+.button:hover{
+    -fx-background-color: linear-gradient(#6c47a3, #6c47a3),
+        linear-gradient(#6c47a3, #6c47a3),
+        linear-gradient(#6c47a3, #6c47a3),
+        linear-gradient(#6c47a3 0%, #6c47a3 50%, #6c47a3 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
